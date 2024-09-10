@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap');
+@import url('/styles/cabecalho.css');
+@import url('/styles/banner.css');
+@import url('/styles/metricas.css');
+@import url('styles/talentos.css');
+@import url('styles/vagas.css');
+@import url('styles/opinioes.css');
+@import url('styles/rodape.css');
+
+:root {
+    --cor-branca: #FFFFFF;
+    --cor-vermelha: #8E2424;
+    --cor-preta: #101828;
+    --cor-cinza: #667085;
+    --cor-borda: #EAECF0;
+    --cor-opinioes: #C3191908;
+    --cor-rodape: #F9FAFB;
+
+    --fonte-inter: "Inter", sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-branca);
+    font-family: var(--fonte-inter);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--cor-preta);
+}
